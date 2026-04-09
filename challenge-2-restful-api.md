@@ -70,10 +70,14 @@ Create a step-by-step guide for setting up a [Python/Java/Node.js] REST API proj
 Include folder structure for models, repositories, services, controllers, and tests. Add build and dependency setup.
 ```
 
-**Prompt 2 - Database Design:**
+**Prompt 2 - (option 1) Database Design:**
 ```
 Design a relational database schema for an e-commerce product management system with Product and Category tables.
 Include fields, constraints, indexes, and relationships. Provide SQL DDL statements with best practices.
+```
+**Prompt 2 - (option 2) Create JSON files with data**
+```
+Create JSON file with data and perform CRUD operation on the files
 ```
 
 **Prompt 3 - Filtering & Search:**
