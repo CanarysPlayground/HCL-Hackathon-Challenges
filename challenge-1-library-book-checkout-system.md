@@ -67,6 +67,63 @@ Checkout (id, userId, bookCopyId, checkoutDate, dueDate, returnDate)
 
 ---
 
+## Example Prompts for Instructions & Agents
+
+### Prompts for Instructions File
+
+Use these prompts with GitHub Copilot to generate step-by-step implementation guides:
+
+**Prompt 1 - Project Setup:**
+```
+Create a step-by-step guide for setting up a [Python/Java/Node.js] project structure for a Library Management System. 
+Include folders for models, services, controllers, utilities, and tests. Add initialization and configuration steps.
+```
+
+**Prompt 2 - Database Schema:**
+```
+Design the database schema for a library system with User, Book, BookCopy, and Checkout tables. 
+Include all fields, constraints, relationships, and indexes. Provide SQL DDL statements.
+```
+
+**Prompt 3 - Implementation Guide:**
+```
+Write a detailed implementation guide for building a REST API for [specific entity like User Management or Book Checkout].
+Include code examples, error handling, and best practices for validation.
+```
+
+### Prompts for Creating Agents
+
+Use these prompts to define custom agents for library-specific tasks:
+
+**Agent 1 - Domain Logic Specialist:**
+```
+Create an agent that specializes in library domain logic. This agent should:
+- Understand checkout rules (max books per user, 14-day limit, late fees)
+- Generate code for validating business rules
+- Ensure data integrity in transactions
+- Provide domain-specific error messages
+```
+
+**Agent 2 - API Development Expert:**
+```
+Create an agent for REST API development that:
+- Generates proper HTTP methods and status codes
+- Implements error handling with meaningful messages
+- Creates request/response DTOs with validation
+- Adds proper logging and tracing
+```
+
+**Agent 3 - Test Generator:**
+```
+Create an agent that generates comprehensive test cases for:
+- Happy path scenarios
+- Edge cases (empty inventory, max books reached)
+- Error scenarios (duplicate checkout, overdue items)
+- Integration tests with database
+```
+
+---
+
 ## Core Features to Implement
 
 ### 1. User Management API

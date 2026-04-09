@@ -58,6 +58,69 @@ Design and build a robust REST API for an e-commerce platform that manages produ
 
 ---
 
+## Example Prompts for Instructions & Agents
+
+### Prompts for Instructions File
+
+Use these prompts with GitHub Copilot to generate implementation guides:
+
+**Prompt 1 - Project Setup:**
+```
+Create a step-by-step guide for setting up a [Python/Java/Node.js] REST API project for an E-Commerce Platform.
+Include folder structure for models, repositories, services, controllers, and tests. Add build and dependency setup.
+```
+
+**Prompt 2 - Database Design:**
+```
+Design a relational database schema for an e-commerce product management system with Product and Category tables.
+Include fields, constraints, indexes, and relationships. Provide SQL DDL statements with best practices.
+```
+
+**Prompt 3 - Filtering & Search:**
+```
+Write implementation guide for building advanced product filtering with multiple query parameters (category, price range, 
+availability, sorting). Include parameter validation, query optimization, and pagination logic.
+```
+
+**Prompt 4 - API Endpoints:**
+```
+Generate REST API endpoints for product CRUD operations with proper HTTP methods, URL paths, request/response formats,
+status codes, and error handling. Include examples for create, read, update, delete operations.
+```
+
+### Prompts for Creating Agents
+
+Use these prompts to define custom agents for API development:
+
+**Agent 1 - REST API Expert:**
+```
+Create an agent specialized in REST API development that:
+- Generates proper HTTP methods (GET, POST, PUT, DELETE) and status codes
+- Creates request/response DTOs with validation decorators
+- Implements filtering, sorting, and pagination logic
+- Adds proper error handling with meaningful messages
+```
+
+**Agent 2 - Database Expert:**
+```
+Create an agent for database operations that:
+- Generates optimized database queries
+- Implements repository pattern with proper abstraction
+- Handles transactions and data consistency
+- Creates database indexes for filtering operations
+```
+
+**Agent 3 - Test Specialist:**
+```
+Create an agent for comprehensive testing that:
+- Generates unit tests for business logic and validation
+- Creates integration tests for API endpoints
+- Generates edge case tests (invalid input, boundary values)
+- Implements test data fixtures and mock objects
+```
+
+---
+
 ## Core Data Model
 
 ```
