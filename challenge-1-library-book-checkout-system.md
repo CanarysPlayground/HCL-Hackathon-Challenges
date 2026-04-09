@@ -58,6 +58,15 @@ Checkout (id, userId, bookCopyId, checkoutDate, dueDate, returnDate)
 
 ---
 
+## Prerequisites
+
+- Strong understanding of object-oriented programming concepts
+- Familiarity with relational databases and SQL
+- Knowledge of REST API design principles
+- **GitHub Copilot** - Must be enabled and configured for AI-assisted code generation and development support
+
+---
+
 ## Core Features to Implement
 
 ### 1. User Management API
@@ -102,6 +111,8 @@ Use any language/framework of your choice - focus on the functionality, not the 
 ---
 
 ## Development Workflow Phases
+
+**⚠️ Important**: You must use **GitHub Copilot** throughout this challenge for code generation, testing, and documentation. It will accelerate development and help you follow best practices.
 
 Follow these phases in order for successful completion:
 

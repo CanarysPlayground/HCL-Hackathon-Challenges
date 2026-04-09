@@ -49,6 +49,15 @@ Design and build a robust REST API for an e-commerce platform that manages produ
 
 ---
 
+## Prerequisites
+
+- Strong understanding of REST API design principles
+- Familiarity with relational or NoSQL databases
+- Experience with at least one backend framework
+- **GitHub Copilot** - Must be enabled and configured for AI-assisted code generation and development support
+
+---
+
 ## Core Data Model
 
 ```
@@ -120,6 +129,8 @@ Use any language/framework of your choice - focus on the functionality, not the 
 ---
 
 ## Development Workflow Phases
+
+**⚠️ Important**: You must use **GitHub Copilot** throughout this challenge for code generation, testing, and documentation. It will accelerate development and help you follow best practices.
 
 Follow these phases in order for successful completion:
 
