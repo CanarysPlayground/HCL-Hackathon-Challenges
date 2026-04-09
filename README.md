@@ -1,8 +1,16 @@
-# HCL-Hackathon-Challenges
+# 🚀 GitHub Copilot Hackathon Guide
 
-## Overview
+## 🎯 Objective
 
-Build full-stack applications using **GitHub Copilot**. Choose between **2 challenges** in Python, Java, or Node.js.
+Build a **fully functional application** using **GitHub Copilot features (including agents/custom agents)** to accelerate development across:
+
+* Code generation
+* UI creation
+* Unit testing
+* Automation testing
+* Documentation
+
+Choose between **2 challenges** in Python, Java, or Node.js.
 
 ---
 
@@ -19,17 +27,6 @@ Build full-stack applications using **GitHub Copilot**. Choose between **2 chall
 - ✅ Docs in `/docs` (API, User Guide, Technical)
 - ✅ Working app (no errors)
 - ✅ All tests passing
-
----
-
-## Validation Criteria
-
-| Criteria | Requirement |
-|----------|------------|
-| **Running** | App starts without errors |
-| **Tests** | 100% passing |
-| **Errors** | Graceful error handling |
-| **Docs** | Complete `/docs` folder |
 
 ---
 
@@ -114,6 +111,47 @@ git commit -m "Phase X: Add [description of what was implemented]"
 # Push to GitHub
 git push origin main
 ```
+---
+
+### If you aleady working on a project and want to push it to GitHub:
+1. **Initialize Git in your project directory**:
+   ```bash
+    git init
+   ```
+2. **Add the remote repository**:
+   ```bash
+    git remote add origin https://github.com/your-username/your-repository.git
+   ```
+3. **Stage and commit your existing code**:
+   ```bash
+    git add .
+    git commit -m "Initial commit with existing project"
+   ```
+4. **Rename the default branch to main** (if necessary):
+   ```bash  
+   git branch -M main
+    ```
+5. **Push your code to GitHub**:
+   ```bash
+   git push -u origin main
+   ```
+---
+
+### 🧪 Evaluation Criteria
+
+| Criteria              | Description                         |
+| --------------------- | ----------------------------------- |
+| ✅ Application Running | App should build & run successfully |
+| ✅ Tests Passing       | Unit + automation tests must pass   |
+| ✅ Error Handling      | Proper exception handling           |
+| ✅ Documentation       | Present in `/docs`                  |
+| ✅ Code Structure      | Clean `/src` organization           |
+| ✅ README              | Well-structured and meaningful      |
+| ✅ Copilot Usage       | Evidence of prompts / agents        |
+
+---
+
+
 
 ### ⚠️ Important: Share Your Repository
 
