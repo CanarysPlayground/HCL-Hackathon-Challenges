@@ -1,6 +1,6 @@
-# 🚀 GitHub Copilot Hackathon Guide
+#  GitHub Copilot Hackathon Guide
 
-## 🎯 Objective
+##  Objective
 
 Build a **fully functional application** using **GitHub Copilot features (including agents/custom agents)** to accelerate development across:
 
