@@ -137,7 +137,7 @@ git push origin main
    ```
 ---
 
-### 🧪 Evaluation Criteria
+###  Evaluation Criteria
 
 | Criteria              | Description                         |
 | --------------------- | ----------------------------------- |
